@@ -21,7 +21,7 @@ services:
       TZ: "Asia/Tokyo"
     ports:
       - "4306:3306"
-  front:
+  web:
     build: ./web/
     volumes:
       - ./web/app:/front
